@@ -32,8 +32,7 @@ I have experience with programming languages such as Java, C++, and Python.
 | [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke, Grant Peverett | [CALC2000](https://github.com/gafink01/Cobol-CALC2000) |
 | [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [UTIL2000](https://github.com/gafink01/UTIL2000) |
 | [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [RPT2000](https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl) |
-| [RPT3000](#rpt3000) | COBOL | CIS352 | Multi-page YTD sales report with branch-level control breaks | Garrett Finke & Gabriel Dilley | [RPT2000](https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl) |
-| [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000] |https://github.com/gawdilley/COBOL-Chapter-5-Assignment| 
+| [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000] |[https://github.com/gawdilley/COBOL-Chapter-5-Assignment](https://github.com/gawdilley/COBOL-Chapter-5-Assignment.git)| 
 
 ---
 
