@@ -189,6 +189,7 @@ It calculates customer-level sales changes, salesrep totals, branch totals, gran
 
 ### Example Output
 
+```
 DATE: 03/26/2026        YEAR-TO-DATE SALES REPORT        PAGE: 1
 TIME: 14:35                                            RPT5000
 
@@ -201,7 +202,6 @@ BRANCH  SLSREP  CUST   CUSTOMER NAME         SALES THIS YTD   SALES LAST YTD   C
                     BRANCH TOTAL              82,721.15        68,950.35       13,770.80  20.0
 
 GRAND TOTAL                                  82,721.15        68,950.35       13,770.80  20.0
-GRAND TOTAL    99,201.45 84,310.95 14,890.50 17.6
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
