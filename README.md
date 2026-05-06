@@ -27,12 +27,12 @@ I have experience with programming languages such as Java, C++, and Python.
 
 ## 📚 Table of Contents
 
-| Project | Tech | Category | Description | Repo |
-|--------|------|----------|-------------|------|
-| [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | [Repo Link](#) |
-| [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | [Repo Link](#) |
+## 📚 Table of Contents
 
----
+| Project | Tech | Category | Description | Authors | Repo |
+|--------|------|----------|-------------|---------|------|
+| [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke | [Repo Link](#) |
+| [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [Repo Link](#) |
 
 ## CALC2000
 
