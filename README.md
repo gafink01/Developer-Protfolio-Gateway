@@ -31,8 +31,9 @@ I have experience with programming languages such as Java, C++, and Python.
 
 | Project | Tech | Category | Description | Authors | Repo |
 |--------|------|----------|-------------|---------|------|
-| [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke, Grant Peverett | [Repo Link](#) |
+| [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke | [Repo Link](#) |
 | [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [Repo Link](#) |
+| [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [Repo Link](#) |
 
 ## CALC2000
 
