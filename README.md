@@ -17,7 +17,7 @@ This repository serves as a central hub for showcasing my coursework and technic
 ### Garrett Finke
 
 I am currently studying Networking at Wayne State College.  
-I am going to be a senior and am currently on the college's Esports Valorant team.  
+I am a senior and currently on the college's Esports Valorant team.  
 I have experience with programming languages such as Java, C++, and Python.
 
 - GitHub: https://github.com/gafink01  
@@ -33,28 +33,12 @@ I have experience with programming languages such as Java, C++, and Python.
 | [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [UTIL2000](https://github.com/gafink01/UTIL2000) |
 | [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [RPT2000](https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl) |
 
-## CALC2000
+---
 
-CALC2000 is a COBOL program that calculates the future value of an investment over a number of years using a set interest rate.  
-The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
-Collaberators include Garrett Finke, and Grant Peverett.
-
-**Key Concepts:**  
-COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED option  
-
-**Tech Stack:**
-- COBOL  
-- VS Code  
-- GitHub  
-
-### 🚦 Status
-✅ Completed  
-
-### 📄 Example Output
 ## CALC2000
 
 CALC2000 is a COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
-The program works by doubling the investment amount each time, demonstrating the processes of the financial calculations.
+The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
 
 **Key Concepts:**  
 COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED option  
@@ -76,22 +60,25 @@ COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED 
 
 Calculating Future Values
 
-Investment Amount :     1,000
-Future Value      :     1,628.89
+Investment Amount :     2,500
+Future Value      :     4,064.74
 
-Investment Amount :     2,000
-Future Value      :     3,257.79
+Investment Amount :     5,000
+Future Value      :     8,129.49
 
-Investment Amount :     4,000
-Future Value      :     6,515.58
+Investment Amount :    10,000
+Future Value      :    16,258.98
 
 End of session.
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
+
+---
+
 ## UTIL2000
 
-UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a set pricing system.  
+UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a tiered pricing system.  
 It applies different rates depending on power usage and adds a fixed service fee to generate a final total bill.
 
 **Key Concepts:**  
@@ -115,35 +102,48 @@ Tiered rate calculations | Conditional logic | Arithmetic operations | Data move
 --------------------------------
 CUSTOMER: CUST-ALPHA
 --------------------------------
-KWH USED       :   350
-SERVICE FEE    : $14.95
-TIER 1 CHARGE  : $42.00
-TIER 2 CHARGE  :  $0.00
-TIER 3 CHARGE  :  $0.00
+KWH USED       :   610
+SERVICE FEE    : $16.25
+TIER 1 CHARGE  : $60.00
+TIER 2 CHARGE  : $16.50
+TIER 3 CHARGE  : $0.00
 --------------------------------
-TOTAL BILL     : $56.95
+TOTAL BILL     : $92.75
 --------------------------------
 
 --------------------------------
 CUSTOMER: CUST-BRAVO
 --------------------------------
-KWH USED       :   925
-SERVICE FEE    : $14.95
+KWH USED       :   980
+SERVICE FEE    : $16.25
 TIER 1 CHARGE  : $60.00
-TIER 2 CHARGE  : $63.75
-TIER 3 CHARGE  :  $0.00
+TIER 2 CHARGE  : $72.00
+TIER 3 CHARGE  : $0.00
 --------------------------------
-TOTAL BILL     : $138.70
+TOTAL BILL     : $148.25
+--------------------------------
+
+--------------------------------
+CUSTOMER: CUST-CHARLIE
+--------------------------------
+KWH USED       :  1450
+SERVICE FEE    : $16.25
+TIER 1 CHARGE  : $60.00
+TIER 2 CHARGE  : $75.00
+TIER 3 CHARGE  : $81.00
+--------------------------------
+TOTAL BILL     : $232.25
 --------------------------------
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
 
+---
+
 ## RPT2000
 
 RPT2000 is a COBOL Year-To-Date (YTD) sales reporting program that reads customer master records from a file and generates a formatted report.  
 It calculates year-over-year performance, including change amounts and percentage differences, and produces grand totals for all qualifying customers.
-Collaborters include Garrett Finke.
 
 This program demonstrates enterprise-style report generation using file processing, control breaks, calculations, and formatted output.
 
@@ -159,9 +159,6 @@ Sequential file processing | Report generation | COMPUTE calculations | Percenta
 ### 🚦 Status
 ✅ Completed  
 
-### 🔗 Repository
-https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl  
-
 ### 📄 Example Output
 
 ```
@@ -169,13 +166,11 @@ DATE:  02/19/2026           YEAR-TO-DATE SALES REPORT            PAGE:    1
 TIME:  14:35                                                      RPT2001
 
 BRANCH SALES  CUST   CUSTOMER NAME         SALES          SALES        CHANGE    CHANGE
- NUM    REP   NUM                         THIS YTD       LAST YTD      AMOUNT   PERCENT
-------  -----  -----  --------------------  ----------  ----------  ----------  ------
- 01      10   10001  ACME SUPPLY CO          25,450.75   20,125.50    5,325.25    26.5
- 02      08   20002  SOUTHERN MATERIALS      45,300.25   30,100.00   15,200.25    50.5
+NUM    REP    NUM   --------------------  ----------  ----------  ----------  ------
+03     11     11012  WESTLAKE INDUSTRIES   38,600.40   29,450.10    9,150.30    31.1
+04     07     22045  NORTHRIDGE SUPPLY     52,980.75   41,120.50   11,860.25    28.8
 
-                                           ===========  ===========  ===========  ======
-                              GRAND TOTAL   89,651.00    69,725.50   19,925.50    28.6
+                               GRAND TOTAL   91,581.15    70,570.60   21,010.55    29.8
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
