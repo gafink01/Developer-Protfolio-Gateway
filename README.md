@@ -139,3 +139,39 @@ TOTAL BILL     : $138.70
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
+## RPT2000
+
+RPT2000 is a COBOL Year-To-Date (YTD) sales reporting program that reads customer master records from a file and generates a formatted report.  
+It calculates year-over-year performance, including change amounts and percentage differences, and produces grand totals for all qualifying customers.
+
+This program demonstrates real enterprise-style reporting using file processing, control logic, and formatted output.
+
+**Key Concepts:**  
+Sequential file processing | Report generation | COMPUTE calculations | Percentage change | Pagination | Grand totals  
+
+**Tech Stack:**
+- COBOL  
+- JCL (mainframe-style execution)  
+- VS Code  
+- GitHub  
+
+### 🚦 Status
+✅ Completed  
+
+### 📄 Example Output
+
+```
+DATE:  02/19/2026           YEAR-TO-DATE SALES REPORT            PAGE:    1
+TIME:  14:35                                                      RPT2001
+
+BRANCH SALES  CUST   CUSTOMER NAME         SALES          SALES        CHANGE    CHANGE
+ NUM    REP   NUM                         THIS YTD       LAST YTD      AMOUNT   PERCENT
+------  -----  -----  --------------------  ----------  ----------  ----------  ------
+ 01      10   10001  ACME SUPPLY CO          25,450.75   20,125.50    5,325.25    26.5
+ 02      08   20002  SOUTHERN MATERIALS      45,300.25   30,100.00   15,200.25    50.5
+
+                                           ===========  ===========  ===========  ======
+                              GRAND TOTAL   89,651.00    69,725.50   19,925.50    28.6
+```
+
+🔙 [Back to TOC](#-table-of-contents)
