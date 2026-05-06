@@ -187,20 +187,20 @@ It calculates customer-level sales changes, salesrep totals, branch totals, gran
 ### 🚦 Status
 ✅ Completed  
 
-### 📄 Example Output
+### Example Output
 
-```
-DATE: 03/26/2026 YEAR-TO-DATE SALES REPORT PAGE: 1
-TIME: 14:35 RPT5000
+DATE: 03/26/2026        YEAR-TO-DATE SALES REPORT        PAGE: 1
+TIME: 14:35                                            RPT5000
 
-BRANCH REP CUST CUSTOMER NAME THIS YTD LAST YTD CHANGE %
+BRANCH  SLSREP  CUST   CUSTOMER NAME         SALES THIS YTD   SALES LAST YTD   CHANGE   %
+-----------------------------------------------------------------------------------------
+03      11      11012  WESTLAKE INDUSTRIES    38,600.40        29,450.10        9,150.30  31.1
+03      11      11013  RIVER TECH             44,120.75        39,500.25        4,620.50  11.7
 
-05 12 21045 LAKEVIEW CORP 47,320.55 39,110.20 8,210.35 21.0
-05 12 21046 OMEGA INDUSTRIES 51,880.90 45,200.75 6,680.15 14.8
+                    SALESREP TOTAL            82,721.15        68,950.35       13,770.80  20.0
+                    BRANCH TOTAL              82,721.15        68,950.35       13,770.80  20.0
 
-SALESREP TOTAL 99,201.45 84,310.95 14,890.50 17.6
-BRANCH TOTAL   99,201.45 84,310.95 14,890.50 17.6
-
+GRAND TOTAL                                  82,721.15        68,950.35       13,770.80  20.0
 GRAND TOTAL    99,201.45 84,310.95 14,890.50 17.6
 ```
 
