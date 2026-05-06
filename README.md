@@ -51,3 +51,90 @@ COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED 
 ✅ Completed  
 
 ### 📄 Example Output
+## CALC2000
+
+CALC2000 is a foundational COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
+The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
+
+**Key Concepts:**  
+COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED option  
+
+**Tech Stack:**
+- COBOL  
+- VS Code  
+- GitHub  
+
+### 🚦 Status
+✅ Completed  
+
+### 📄 Example Output
+
+```
+***************************************
+*        CALC2000 Investment Tool      *
+***************************************
+
+Calculating Future Values
+
+Investment Amount :     1,000
+Future Value      :     1,628.89
+
+Investment Amount :     2,000
+Future Value      :     3,257.79
+
+Investment Amount :     4,000
+Future Value      :     6,515.58
+
+End of session.
+```
+
+🔙 [Back to TOC](#-table-of-contents)
+## UTIL2000
+
+UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a tiered pricing system.  
+It applies different rates depending on kilowatt-hour (kWh) usage and adds a fixed service fee to generate a final total bill.
+
+**Key Concepts:**  
+Tiered rate calculations | Conditional logic | Arithmetic operations | Data movement | Formatted output  
+
+**Tech Stack:**
+- COBOL  
+- VS Code  
+- GitHub  
+
+### 🚦 Status
+✅ Completed  
+
+### 📄 Example Output
+
+```
+********************************
+*** UTIL2000 - CUSTOMER BILL ***
+********************************
+
+--------------------------------
+CUSTOMER: CUST-ALPHA
+--------------------------------
+KWH USED       :   350
+SERVICE FEE    : $14.95
+TIER 1 CHARGE  : $42.00
+TIER 2 CHARGE  :  $0.00
+TIER 3 CHARGE  :  $0.00
+--------------------------------
+TOTAL BILL     : $56.95
+--------------------------------
+
+--------------------------------
+CUSTOMER: CUST-BRAVO
+--------------------------------
+KWH USED       :   925
+SERVICE FEE    : $14.95
+TIER 1 CHARGE  : $60.00
+TIER 2 CHARGE  : $63.75
+TIER 3 CHARGE  :  $0.00
+--------------------------------
+TOTAL BILL     : $138.70
+--------------------------------
+```
+
+🔙 [Back to TOC](#-table-of-contents)
