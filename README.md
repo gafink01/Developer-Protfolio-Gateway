@@ -140,15 +140,17 @@ TOTAL BILL     : $138.70
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
+
 ## RPT2000
 
 RPT2000 is a COBOL Year-To-Date (YTD) sales reporting program that reads customer master records from a file and generates a formatted report.  
 It calculates year-over-year performance, including change amounts and percentage differences, and produces grand totals for all qualifying customers.
+Collaborters include Garrett Finke.
 
-This program demonstrates real enterprise-style reporting using file processing, control logic, and formatted output.
+This program demonstrates enterprise-style report generation using file processing, control breaks, calculations, and formatted output.
 
 **Key Concepts:**  
-Sequential file processing | Report generation | COMPUTE calculations | Percentage change | Pagination | Grand totals  
+Sequential file processing | Report generation | COMPUTE calculations | Percentage change | Control breaks | Grand totals  
 
 **Tech Stack:**
 - COBOL  
@@ -158,6 +160,9 @@ Sequential file processing | Report generation | COMPUTE calculations | Percenta
 
 ### 🚦 Status
 ✅ Completed  
+
+### 🔗 Repository
+https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl  
 
 ### 📄 Example Output
 
