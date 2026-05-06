@@ -32,6 +32,8 @@ I have experience with programming languages such as Java, C++, and Python.
 | [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke, Grant Peverett | [CALC2000](https://github.com/gafink01/Cobol-CALC2000) |
 | [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [UTIL2000](https://github.com/gafink01/UTIL2000) |
 | [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [RPT2000](https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl) |
+| [RPT3000](#rpt3000) | COBOL | CIS352 | Multi-page YTD sales report with branch-level control breaks | Garrett Finke & Gabriel Dilley | [RPT2000](https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl) |
+| [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000] |https://github.com/gawdilley/COBOL-Chapter-5-Assignment| 
 
 ---
 
@@ -171,6 +173,36 @@ NUM    REP    NUM   --------------------  ----------  ----------  ----------  --
 04     07     22045  NORTHRIDGE SUPPLY     52,980.75   41,120.50   11,860.25    28.8
 
                             GRAND TOTAL   91,581.15    70,570.60   21,010.55    29.8
+```
+
+🔙 [Back to TOC](#-table-of-contents)
+
+## RPT5000
+
+RPT5000 is an enterprise COBOL Year-To-Date sales reporting program that reads customer master records and produces a formatted report using control breaks.
+
+It calculates customer-level sales changes, salesrep totals, branch totals, grand totals, and percent change with divide-by-zero protection. The program demonstrates advanced sequential file processing and hierarchical report generation.
+
+**Key Concepts:** Sequential file processing | Control breaks | Nested totals | COMPUTE statements | Report formatting | Percent calculations | EOF handling  
+
+### 🚦 Status
+✅ Completed  
+
+### 📄 Example Output
+
+```
+DATE: 03/26/2026 YEAR-TO-DATE SALES REPORT PAGE: 1
+TIME: 14:35 RPT5000
+
+BRANCH REP CUST CUSTOMER NAME THIS YTD LAST YTD CHANGE %
+
+05 12 21045 LAKEVIEW CORP 47,320.55 39,110.20 8,210.35 21.0
+05 12 21046 OMEGA INDUSTRIES 51,880.90 45,200.75 6,680.15 14.8
+
+SALESREP TOTAL 99,201.45 84,310.95 14,890.50 17.6
+BRANCH TOTAL   99,201.45 84,310.95 14,890.50 17.6
+
+GRAND TOTAL    99,201.45 84,310.95 14,890.50 17.6
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
