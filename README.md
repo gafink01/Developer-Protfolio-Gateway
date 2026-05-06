@@ -29,9 +29,10 @@ I have experience with programming languages such as Java, C++, and Python.
 
 | Project | Tech | Category | Description | Authors | Repo |
 |--------|------|----------|-------------|---------|------|
-| [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke, Grant Peverett | https://github.com/gafink01/Cobol-CALC2000 |
-| [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | https://github.com/gafink01/UTIL2000 |
-| [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl |
+| [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke, Grant Peverett | [View Repo](https://github.com/gafink01/Cobol-CALC2000) |
+| [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [View Repo](https://github.com/gafink01/UTIL2000) |
+| [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [View Repo](https://github.com/gafink01/RPT200/blob/main/RPT2000.cbl) |
+
 ## CALC2000
 
 CALC2000 is a COBOL program that calculates the future value of an investment over a number of years using a set interest rate.  
