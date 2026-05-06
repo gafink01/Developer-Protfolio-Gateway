@@ -36,8 +36,9 @@ I have experience with programming languages such as Java, C++, and Python.
 
 ## CALC2000
 
-CALC2000 is a foundational COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
+CALC2000 is a COBOL program that calculates the future value of an investment over a number of years using a set interest rate.  
 The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
+Collaberators include Garrett Finke, and Grant Peverett.
 
 **Key Concepts:**  
 COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED option  
@@ -53,8 +54,8 @@ COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED 
 ### 📄 Example Output
 ## CALC2000
 
-CALC2000 is a foundational COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
-The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
+CALC2000 is a COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
+The program works by doubling the investment amount each time, demonstrating the processes of the financial calculations.
 
 **Key Concepts:**  
 COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED option  
@@ -91,8 +92,8 @@ End of session.
 🔙 [Back to TOC](#-table-of-contents)
 ## UTIL2000
 
-UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a tiered pricing system.  
-It applies different rates depending on kilowatt-hour (kWh) usage and adds a fixed service fee to generate a final total bill.
+UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a set pricing system.  
+It applies different rates depending on power usage and adds a fixed service fee to generate a final total bill.
 
 **Key Concepts:**  
 Tiered rate calculations | Conditional logic | Arithmetic operations | Data movement | Formatted output  
