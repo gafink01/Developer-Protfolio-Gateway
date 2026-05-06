@@ -162,15 +162,15 @@ Sequential file processing | Report generation | COMPUTE calculations | Percenta
 ### 📄 Example Output
 
 ```
-DATE:  02/19/2026           YEAR-TO-DATE SALES REPORT            PAGE:    1
-TIME:  14:35                                                      RPT2001
+DATE:  02/19/2026           YEAR-TO-DATE SALES REPORT                     PAGE:    1
+TIME:  14:35                                                                 RPT2001
 
-BRANCH SALES  CUST   CUSTOMER NAME         SALES          SALES        CHANGE    CHANGE
+BRANCH SALES  CUST         CUSTOMER NAME       SALES       SALES      CHANGE  CHANGE
 NUM    REP    NUM   --------------------  ----------  ----------  ----------  ------
 03     11     11012  WESTLAKE INDUSTRIES   38,600.40   29,450.10    9,150.30    31.1
 04     07     22045  NORTHRIDGE SUPPLY     52,980.75   41,120.50   11,860.25    28.8
 
-                               GRAND TOTAL   91,581.15    70,570.60   21,010.55    29.8
+                            GRAND TOTAL   91,581.15    70,570.60   21,010.55    29.8
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
