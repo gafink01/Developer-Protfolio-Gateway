@@ -44,6 +44,8 @@ I have experience with programming languages such as Java, C++, and Python.
 
 -Grant Peverett
 
+**Description**
+
 CALC2000 is a COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
 The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
 
@@ -88,6 +90,8 @@ End of session.
 **Collaborators** 
 
 -Garrett Finke
+
+**Description**
 
 UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a tiered pricing system.  
 It applies different rates depending on power usage and adds a fixed service fee to generate a final total bill.
@@ -157,6 +161,8 @@ TOTAL BILL     : $232.25
 
 -Garrett Finke
 
+**Description**
+
 RPT2000 is a COBOL Year-To-Date (YTD) sales reporting program that reads customer master records from a file and generates a formatted report.  
 It calculates year-over-year performance, including change amounts and percentage differences, and produces grand totals for all qualifying customers.
 
@@ -193,7 +199,11 @@ NUM    REP    NUM   --------------------  ----------  ----------  ----------  --
 ## RPT5000
 
 **Collaborators** 
+
 -Garrett Finke
+
+**Description**
+
 RPT5000 is an enterprise COBOL Year-To-Date sales reporting program that reads customer master records and produces a formatted report using control breaks.
 
 It calculates customer-level sales changes, salesrep totals, branch totals, grand totals, and percent change with divide-by-zero protection. The program demonstrates advanced sequential file processing and hierarchical report generation.
