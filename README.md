@@ -46,7 +46,7 @@ I have experience with programming languages such as Java, C++, and Python.
 
 - [Garrett Finke](https://github.com/gafink01)
 
--[Grant Peverett[]](https://github.com/Grantyy1)
+- [Grant Peverett](https://github.com/Grantyy1)
 
 **Description**
 
@@ -205,7 +205,7 @@ NUM    REP    NUM   --------------------  ----------  ----------  ----------  --
 **Collaborators** 
 
 - [Garrett Finke](https://github.com/gafink01)
--[Gabriel Dilley](https://github.com/gawdilley)
+- [Gabriel Dilley](https://github.com/gawdilley)
 
 **Description**
 
