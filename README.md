@@ -34,6 +34,7 @@ I have experience with programming languages such as Java, C++, and Python.
 | [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [RPT2000](https://github.com/gafink01/RPT200) |
 | [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000](https://github.com/gawdilley/COBOL-Chapter-5-Assignment) |
 | [RPT6000](#rpt6000) | COBOL | CIS352 | Advanced YTD sales reporting system with multi-file processing, control breaks, salesrep lookups, and paginated enterprise reporting | Garrett Finke | [RPT6000](https://github.com/gafink01/RPT6000) | 
+| [SEQ3000](#seq3000) | COBOL | CIS352 | Sequential employee master file maintenance program that processes add, change, and delete transactions while generating updated master and error files | Garrett Finke | https://github.com/gafink01/SEQ3000-ASSIGMENT.git |
 ---
 
 ## CALC2000
@@ -231,6 +232,8 @@ GRAND TOTAL                                  82,721.15        68,950.35       13
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
+
+```
 ## RPT6000
 
 **Collaborators**  
@@ -256,4 +259,62 @@ Sequential file processing | Multi-file processing | Table handling | Indexed ta
 
 ### 🚦 Status
 ✅ Completed
+🔙 [Back to TOC](#-table-of-contents)
+
+```
+## SEQ3000
+
+**Collaborators**  
+
+- Garrett Finke  
+
+**Description**
+
+SEQ3000 is a COBOL sequential file maintenance program that processes employee transaction records against an existing employee master file.  
+The program compares transaction and master records by employee ID and applies add, change, and delete operations to create a new updated master file while also writing invalid transactions to an error file.
+
+The project demonstrates enterprise-style sequential file processing techniques commonly used in legacy mainframe systems. It uses multiple input/output files, file status handling, record matching logic, and transaction processing workflows.
+
+The program currently processes records correctly in several scenarios, but it still encounters an ABEND during execution that is being debugged.
+
+**Key Concepts:**  
+Sequential file processing | File maintenance | Transaction matching | Add/change/delete logic | File status handling | EOF processing | Enterprise COBOL workflows | Error transaction reporting  
+
+**Tech Stack:**  
+- COBOL  
+- VS Code  
+- GitHub  
+- JCL (mainframe-style execution concepts)  
+
+### 🚦 Status
+⚠️ Close to Working — Currently Debugging an ABEND Error
+
+### 📄 Program Features
+
+- Reads employee transactions from `EMPTRAN`
+- Reads existing employee records from `OLDEMP`
+- Creates updated employee master file `NEWEMP`
+- Writes invalid transactions to `ERRTRAN`
+- Supports:
+  - Add transactions
+  - Change transactions
+  - Delete transactions
+- Uses file status checking for error handling
+- Uses HIGH-VALUES logic for EOF processing
+
+### 📄 Example Logic Flow
+
+```text
+1. Read transaction record
+2. Read old master record
+3. Compare employee IDs
+4. Apply transaction:
+      A = Add
+      C = Change
+      D = Delete
+5. Write updated record to NEWEMP
+6. Write invalid transactions to ERRTRAN
+7. Continue until EOF
+🔙 [Back to TOC](#-table-of-contents)
+
 
