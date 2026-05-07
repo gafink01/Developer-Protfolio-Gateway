@@ -16,6 +16,8 @@ This repository serves as a central hub for showcasing my coursework and technic
 
 ### Garrett Finke
 
+<img src="assets/GarrettImage.jpg" alt="Garrett Finke" width="200" style="border-radius: 10px;"/>
+
 I am currently studying Networking at Wayne State College.  
 I am a senior and currently on the college's Esports Valorant team.  
 I have experience with programming languages such as Java, C++, and Python.
