@@ -33,7 +33,7 @@ I have experience with programming languages such as Java, C++, and Python.
 | [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [UTIL2000](https://github.com/gafink01/UTIL2000) |
 | [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [RPT2000](https://github.com/gafink01/RPT200) |
 | [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000](https://github.com/gawdilley/COBOL-Chapter-5-Assignment) |
-
+| [RPT6000](#rpt6000) | COBOL | CIS352 | Advanced YTD sales reporting system with multi-file processing, control breaks, salesrep lookups, and paginated enterprise reporting | Garrett Finke | [RPT6000](https://github.com/gafink01/RPT6000) | 
 ---
 
 ## CALC2000
@@ -231,3 +231,29 @@ GRAND TOTAL                                  82,721.15        68,950.35       13
 ```
 
 🔙 [Back to TOC](#-table-of-contents)
+## RPT6000
+
+**Collaborators**  
+
+- Garrett Finke  
+
+**Description**
+
+RPT6000 is an advanced enterprise COBOL Year-To-Date (YTD) sales reporting program that reads both customer master records and sales representative files to generate a fully formatted business report using hierarchical control breaks.
+
+The program calculates customer-level sales changes, sales representative totals, branch totals, and grand totals while also computing percentage increases and decreases with divide-by-zero protection and overflow handling. It demonstrates enterprise-style report generation through sequential file processing, indexed table lookups, multi-file integration, pagination, and formatted output commonly used in mainframe systems.
+
+RPT6000 expands on previous reporting projects by introducing SALESREP table loading and SEARCH processing to dynamically match sales representative numbers with names during report generation.
+
+**Key Concepts:**  
+Sequential file processing | Multi-file processing | Table handling | Indexed tables | Control breaks | Nested totals | COMPUTE statements | Percentage calculations | EOF handling | Enterprise report formatting  
+
+**Tech Stack:**  
+- COBOL  
+- JCL (mainframe-style execution)  
+- VS Code  
+- GitHub  
+
+### 🚦 Status
+✅ Completed
+
