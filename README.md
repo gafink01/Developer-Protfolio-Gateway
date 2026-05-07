@@ -9,7 +9,7 @@
 ## 👋 About This Repository
 
 Welcome to my GitHub portfolio repository!  
-This repository serves as a central hub for showcasing my coursework and technical projects. Each project demonstrates key enterprise computing concepts using COBOL.
+This repository serves as a central hub for showcasing my coursework and technical projects for my CIS 352 COBOL assigments.
 
 ---
 
