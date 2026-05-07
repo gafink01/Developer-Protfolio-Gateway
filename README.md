@@ -309,7 +309,7 @@ Sequential file processing | File maintenance | Transaction matching | Add/chang
 
 ### 📄 Example Logic Flow
 
-```text
+```
 1. Read transaction record
 2. Read old master record
 3. Compare employee IDs
@@ -325,4 +325,3 @@ Sequential file processing | File maintenance | Transaction matching | Add/chang
 🔙 [Back to TOC](#-table-of-contents)
 
 ---
-
