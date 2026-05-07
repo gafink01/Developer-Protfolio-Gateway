@@ -235,7 +235,8 @@ GRAND TOTAL                                  82,721.15        68,950.35       13
 
 🔙 [Back to TOC](#-table-of-contents)
 
-```
+---
+
 ## RPT6000
 
 **Collaborators**  
@@ -262,11 +263,10 @@ Sequential file processing | Multi-file processing | Table handling | Indexed ta
 ### 🚦 Status
 ✅ Completed
 
-
-```
 🔙 [Back to TOC](#-table-of-contents)
 
-```
+---
+
 ## SEQ3000
 
 **Collaborators**  
@@ -309,8 +309,7 @@ Sequential file processing | File maintenance | Transaction matching | Add/chang
 
 ### 📄 Example Logic Flow
 
-```
-text
+```text
 1. Read transaction record
 2. Read old master record
 3. Compare employee IDs
@@ -322,8 +321,6 @@ text
 6. Write invalid transactions to ERRTRAN
 7. Continue until EOF
 
-```
-
 🔙 [Back to TOC](#-table-of-contents)
-
+---
 
