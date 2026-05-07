@@ -1,5 +1,5 @@
 
-# 💻 Portfolio Gateway
+# 💻 Portfolio
 
 **Author:** Garrett Finke  
 **Course:** CIS352 – Intro to Enterprise Computing  
