@@ -44,9 +44,9 @@ I have experience with programming languages such as Java, C++, and Python.
 
 **Collaborators** 
 
--Garrrett Finke
+- [Garrett Finke](https://github.com/gafink01)
 
--Grant Peverett
+-[Grant Peverett[]](https://github.com/Grantyy1)
 
 **Description**
 
@@ -93,7 +93,7 @@ End of session.
 
 **Collaborators** 
 
--Garrett Finke
+- [Garrett Finke](https://github.com/gafink01)
 
 **Description**
 
@@ -163,7 +163,7 @@ TOTAL BILL     : $232.25
 
 **Collaborators** 
 
--Garrett Finke
+- [Garrett Finke](https://github.com/gafink01)
 
 **Description**
 
@@ -204,7 +204,8 @@ NUM    REP    NUM   --------------------  ----------  ----------  ----------  --
 
 **Collaborators** 
 
--Garrett Finke
+- [Garrett Finke](https://github.com/gafink01)
+-[Gabriel Dilley](https://github.com/gawdilley)
 
 **Description**
 
@@ -242,7 +243,7 @@ GRAND TOTAL                                  82,721.15        68,950.35       13
 
 **Collaborators**  
 
-- Garrett Finke  
+- [Garrett Finke](https://github.com/gafink01)
 
 **Description**
 
@@ -272,7 +273,7 @@ Sequential file processing | Multi-file processing | Table handling | Indexed ta
 
 **Collaborators**  
 
-- Garrett Finke  
+- [Garrett Finke](https://github.com/gafink01)
 
 **Description**
 
