@@ -35,9 +35,9 @@ I have experience with programming languages such as Java, C++, and Python.
 | [CALC2000](#calc2000) | COBOL | CIS352 | Calculates future investment values using compound interest and doubling logic | Garrett Finke, Grant Peverett | [CALC2000](https://github.com/gafink01/Cobol-CALC2000) |
 | [UTIL2000](#util2000) | COBOL | CIS352 | Calculates electric utility bills using a tiered kWh rate system | Garrett Finke | [UTIL2000](https://github.com/gafink01/UTIL2000) |
 | [RPT2000](#rpt2000) | COBOL | CIS352 | Generates a YTD sales report with year-over-year comparisons and grand totals | Garrett Finke | [RPT2000](https://github.com/gafink01/RPT200) |
-| [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000](https://github.com/gawdilley/COBOL-Chapter-5-Assignment) |
+| [RPT5000](#rpt5000) | COBOL | CIS352 | Three-level YTD sales report with sales rep and branch control breaks using an EVALUATE | Garrett Finke & Gabriel Dilley | [RPT5000] https://github.com/gafink01/RPT5000.git |
 | [RPT6000](#rpt6000) | COBOL | CIS352 | Advanced YTD sales reporting system with multi-file processing, control breaks, salesrep lookups, and paginated enterprise reporting | Garrett Finke | [RPT6000](https://github.com/gafink01/RPT6000) | 
-| [SEQ3000](#seq3000) | COBOL | CIS352 | A seqeuntial file program that adds, changes, and deletes transactions while generating updated master and error files | Garrett Finke | https://github.com/gafink01/SEQ3000-ASSIGMENT.git |
+| [SEQ3000](#seq3000) | COBOL | CIS352 | A seqeuntial file program that adds, changes, and deletes transactions while generating updated master and error files | Garrett Finke | [SEQ300] https://github.com/gafink01/SEQ3000-ASSIGMENT.git |
 ---
 
 ## CALC2000
