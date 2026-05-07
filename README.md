@@ -50,8 +50,7 @@ I have experience with programming languages such as Java, C++, and Python.
 
 **Description**
 
-CALC2000 is a COBOL program that calculates the future value of an investment over a fixed number of years using a set interest rate.  
-The program runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
+CALC200 is a program that runs multiple scenarios by doubling the investment amount each time, demonstrating iterative processing and financial calculations.
 
 **Key Concepts:**  
 COMPUTE statements | PERFORM loops | Iteration | Numeric calculations | ROUNDED option  
@@ -97,8 +96,7 @@ End of session.
 
 **Description**
 
-UTIL2000 is a COBOL utility billing program that calculates electric bills for multiple customers using a tiered pricing system.  
-It applies different rates depending on power usage and adds a fixed service fee to generate a final total bill.
+UTIL2000 is a program that applies different rates depending on power usage and adds a fixed service fee to generate a final total bill.
 
 **Key Concepts:**  
 Tiered rate calculations | Conditional logic | Arithmetic operations | Data movement | Formatted output  
@@ -167,8 +165,7 @@ TOTAL BILL     : $232.25
 
 **Description**
 
-RPT2000 is a COBOL Year-To-Date (YTD) sales reporting program that reads customer master records from a file and generates a formatted report.  
-It calculates year-over-year performance, including change amounts and percentage differences, and produces grand totals for all qualifying customers.
+RPT2000 is a program that calculates year-over-year performance, including change amounts and percentage differences, and produces grand totals for all qualifying customers.
 
 This program demonstrates enterprise-style report generation using file processing, control breaks, calculations, and formatted output.
 
@@ -209,9 +206,8 @@ NUM    REP    NUM   --------------------  ----------  ----------  ----------  --
 
 **Description**
 
-RPT5000 is an enterprise COBOL Year-To-Date sales reporting program that reads customer master records and produces a formatted report using control breaks.
 
-It calculates customer-level sales changes, salesrep totals, branch totals, grand totals, and percent change with divide-by-zero protection. The program demonstrates advanced sequential file processing and hierarchical report generation.
+RPT5000 is a program that calculates customer-level sales changes, salesrep totals, branch totals, grand totals, and percent change with divide-by-zero protection. The program demonstrates advanced sequential file processing and hierarchical report generation.
 
 **Key Concepts:** Sequential file processing | Control breaks | Nested totals | COMPUTE statements | Report formatting | Percent calculations | EOF handling  
 
@@ -247,9 +243,8 @@ GRAND TOTAL                                  82,721.15        68,950.35       13
 
 **Description**
 
-RPT6000 is an advanced enterprise COBOL Year-To-Date (YTD) sales reporting program that reads both customer master records and sales representative files to generate a fully formatted business report using hierarchical control breaks.
 
-The program calculates customer-level sales changes, sales representative totals, branch totals, and grand totals while also computing percentage increases and decreases with divide-by-zero protection and overflow handling. It demonstrates enterprise-style report generation through sequential file processing, indexed table lookups, multi-file integration, pagination, and formatted output commonly used in mainframe systems.
+RPT6000 is a program that calculates customer-level sales changes, sales representative totals, branch totals, and grand totals while also computing percentage increases and decreases with divide-by-zero protection and overflow handling. It demonstrates enterprise-style report generation through sequential file processing, indexed table lookups, multi-file integration, pagination, and formatted output commonly used in mainframe systems.
 
 RPT6000 expands on previous reporting projects by introducing SALESREP table loading and SEARCH processing to dynamically match sales representative numbers with names during report generation.
 
