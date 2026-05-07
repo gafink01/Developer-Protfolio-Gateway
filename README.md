@@ -320,7 +320,9 @@ Sequential file processing | File maintenance | Transaction matching | Add/chang
 5. Write updated record to NEWEMP
 6. Write invalid transactions to ERRTRAN
 7. Continue until EOF
+```
 
 🔙 [Back to TOC](#-table-of-contents)
+
 ---
 
